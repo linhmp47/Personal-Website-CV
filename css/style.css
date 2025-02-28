@@ -26,7 +26,7 @@ i {
 
 .banner-img {
   background-size: cover;
-  filter: brightness(50%);
+  filter: brightness(185%);
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
   height: 100vh;
   width: 100%;
@@ -37,6 +37,11 @@ i {
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.banner-text-position span {
+  font-size: 25px;
+  color:rgb(175, 168, 168)
 }
 
 /* NAVIGATION BAR */
@@ -52,7 +57,7 @@ i {
 .img-nav-bar {
   position: absolute;
   transform: translate(-50%, -50%);
-  width: 250px;
+  width: 240px;
   border-radius: 150px;
   padding: 10px;
   border: 1px solid gray;
@@ -74,6 +79,10 @@ i {
   font-size: 17px;
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd;
+}
+
+.nav-bar .nav-bar-name {
+  font-size: 15px;
 }
 
 .nav-bar a:hover {
